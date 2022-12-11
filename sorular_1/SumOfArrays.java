@@ -11,7 +11,7 @@ public class SumOfArrays {
         sayi1[1] = 8;
         sayi1[2] = 9;
 
-        //iki arrray i toplayalıml
+        //iki arrray i toplayalim
 
         int[] toplamlari = new int[3];
 
