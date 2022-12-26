@@ -19,7 +19,7 @@ public class RakamlarToplami_Math {
 
 }
 /*
-//=========================
+//===========uzun yol==============
  int top = 0;
  String sayistr=""+sayi;
  int[]sayilar=new int[sayistr.length()];
