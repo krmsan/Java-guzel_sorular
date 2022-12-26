@@ -21,10 +21,10 @@ public class RakamlarToplami_StringManipulations {
             toparr += Integer.valueOf(arr[i]);
 
             /*2.yol */
-            top += Integer.valueOf("" + str.charAt(i));
+            top1 += Integer.valueOf(str.substring(i, i + 1));
 
             /*3.yol */
-            top1 += Integer.valueOf(str.substring(i, i + 1));
+            top += Integer.valueOf("" + str.charAt(i));
         }
         return top;
     }
