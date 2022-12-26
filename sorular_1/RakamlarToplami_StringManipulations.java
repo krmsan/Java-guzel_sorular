@@ -1,6 +1,6 @@
 package sorular_1;
 
-public class RakamlarToplamiString {
+public class RakamlarToplami_StringManipulations {
     public static void main(String[] args) {
         int sayi = 1234567;
         int toplam = rakamlariTopla(sayi);
@@ -17,10 +17,13 @@ public class RakamlarToplamiString {
         int top = 0;
         for (int i = 0; i < str.length(); i++) {
 
+            /*1.yol */
             toparr += Integer.valueOf(arr[i]);
 
+            /*2.yol */
             top += Integer.valueOf("" + str.charAt(i));
 
+            /*3.yol */
             top1 += Integer.valueOf(str.substring(i, i + 1));
         }
         return top;
