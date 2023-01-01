@@ -12,5 +12,7 @@ public class RakamTopla_While {
 
     public static void main(String[] args) {
         System.out.println(rakamtopla_while(1234567));
+
+
     }
 }
